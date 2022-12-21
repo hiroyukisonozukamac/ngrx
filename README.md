@@ -1,2 +1,2 @@
 # ngrx
-ngrx研修用
+ngrx学習用
