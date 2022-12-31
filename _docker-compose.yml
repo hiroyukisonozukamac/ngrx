@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  node:
+    build: .
+    # デフォルトで使用するポートの 4200 を開放
+    ports:
+      - "4200:4200"
+    # ローカルと仮想コンテナ共有するディレクトリの作成（[volume名]:[コンテナの絶対Path]）services > node > volumes
+    volumes:
+      - "./client:/client"
+volumes:
+  client
