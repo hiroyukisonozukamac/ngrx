@@ -26,7 +26,12 @@ Chapter6
 - ymlファイルの階層によってコンテナにバインドする階層が変わる。
 
 # TODO
-- 
+- コンテナイメージの作成
+- 作成したコンテナイメージをDockerhubにアップロード
+## コンテナイメージ作成TODO
+- angular
+- node.js
+- angular material
 - .net6インストール
 - コンテナイメージの取得（mcr.microsoft.com/mssql/server:2022-latest）かubuntuに直接(https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)
 ※コンテナイメージは分散トランザクションが使えない？？
