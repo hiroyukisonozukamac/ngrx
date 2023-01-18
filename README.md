@@ -17,7 +17,7 @@ Chapter6
 - shファイルの実行権限変更（chmod +x init.sh : 実行権限付与) +:権限を追加する x:実行(execute)
 - anguler materialインストール(init.sh)
 
-# やること
+# 学習内容
 - 初期表示、登録、更新、削除
 - REST Api
 - ngrxの仕組み
@@ -25,6 +25,11 @@ Chapter6
 # その他メモ
 - ymlファイルの階層によってコンテナにバインドする階層が変わる。
 
+# TODO
+- 
+- .net6インストール
+- コンテナイメージの取得（mcr.microsoft.com/mssql/server:2022-latest）かubuntuに直接(https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)
+※コンテナイメージは分散トランザクションが使えない？？
 
 
 
